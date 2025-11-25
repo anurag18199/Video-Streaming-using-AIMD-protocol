@@ -1,12 +1,11 @@
-# Ignore Logs and Data
-*.csv
-*.log
-*.svg
-*.png
-
-# Ignore Executables
+# Ignore compiled binaries
 sender
 receiver
-plotter
 *.exe
 *.o
+
+# Ignore logs and outputs
+*.csv
+*.log
+*.png
+*.svg
