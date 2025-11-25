@@ -1,17 +1,12 @@
-# Ignore compiled binaries (Windows & Linux)
+# Ignore Logs and Data
+*.csv
+*.log
+*.svg
+*.png
+
+# Ignore Executables
 sender
 receiver
 plotter
 *.exe
 *.o
-aimd_log.csv
-aimd_graph_python.png
-# Ignore logs and generated graphs (Optional: keep them if you want to show results)
-# aimd_log.csv
-# aimd_graph.svg
-# aimd_graph_python.png
-# aimd_graph_python.svg
-
-# Ignore OS specific files
-.DS_Store
-Thumbs.db
