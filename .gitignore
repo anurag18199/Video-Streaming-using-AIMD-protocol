@@ -4,7 +4,8 @@ receiver
 plotter
 *.exe
 *.o
-
+aimd_log.csv
+aimd_graph_python.png
 # Ignore logs and generated graphs (Optional: keep them if you want to show results)
 # aimd_log.csv
 # aimd_graph.svg
